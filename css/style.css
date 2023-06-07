@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: .5s;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0 0 10px #333;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+.nav_right-side a{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #777;   
+    transition: .5s;
+    padding-bottom: 10px;
+}
+    
+.nav_right-side a:hover{
+    color: black;
+    border-bottom: 1px solid #5454D4;
+}
+
+.btn{
+    padding: 20px 50px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 17px;
+    background-color: #FF7143;
+    border: none;
+    border-radius: 10px;
+}
+
+header{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.header_left-side {
+    width: 50%;
+    padding: 100px;
+    margin-top: 100px;
+}
+
+.header_left-side h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.header_left-side p{
+    font-size: 20px;
+    padding: 40px 0;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: -0.625263px;
+    color: #696871;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.header_right-side{
+    width: 50%;
+    margin-top: 100px;
+}
+.header_right-side img{
+    padding: 100px;
+}
+
+.header_btn{
+    padding: 20px 50px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 17px;
+    background-color: #5454D4;
+    border: none;
+    border-radius: 10px;
+}
+.fa-solid{
+    font-size: 30px;
+}
+.solid{
+    display: inline-block;
+    padding: 13px 15px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 1px #000;
+    margin-left: 50px;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    padding: 100px;
+}
+.pricing{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+}
+.pricing_left-side{
+    width: 50%;
+}
+.pricing_right-side{
+    width: 50%;
+}
+
+.pricing_right-side h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.pricing_right-side p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #696871;
+    padding: 30px 0;
+}
+.pricing_right-side a{
+    color: #5454D4;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.features{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+}
+
+.features_right-side,
+.features_left-side{
+    width: 50%;
+}
+
+.features_right-side h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.features_right-side p{
+    color: #696871;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 0;
+    line-height: 30px;
+}
+.features_right-side a{
+    color: #5454D4;
+    font-size: 17px;
+    font-weight: 700;
+}
+.features_left-side {
+    padding: 100px;
+}
+.audit{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+.audit img{
+    width: 151px;
+    height: 97px;
+    margin-left: 120px;
+}
+.audit h1{
+    text-align: center;
+    font-size: 24px;
+    padding: 30px 0;
+}
+.audit p{
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+    color: #696871;
+}
+.audit1{
+    width: 26.6%;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.header h1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -1.87579px;
+    line-height: 70px;
+}
+.header img{
+    width: 450px;
+    height: 70px;
+}
+
+.card{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.card div{
+    margin: 0px 50px;
+}
+
+.gray,
+.yellow{
+    width: 26%;
+    padding: 50px;
+}
+
+.card p{
+    color: #696871;
+    font-size: 18px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.card h1{
+    font-size: 60px;
+    letter-spacing: -1.03448px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.starter,
+.enterprise{
+    margin-right: 100px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+
+.yellow{
+    background-color: #FF7143;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.yellow p{
+    color: white;
+    font-size: 18px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.yellow h1{
+    color: white;
+}
+
+.btn2{
+    padding: 20px 90px;
+    margin: 20px 0;
+    font-weight: 700;
+    color: #5454D4;
+    font-size: 17px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn4{
+    padding: 20px 90px;
+    margin: 20px 0;
+    font-weight: 700;
+    color: #fff;
+    font-size: 17px;
+    background-color: #9F3919;
+    border: none;
+    border-radius: 10px;
+}
+
+.sold{
+    margin: 50px;
+}
+
+/* Kriptografiya tarihi 
+Elektron pochtadan foydalanish */
